@@ -1,0 +1,45 @@
+body {
+    background-image: url(images/aea.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.back-nav-btn {
+    color: wheat;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.back-nav-btn:hover {
+    color: white;
+    background-color: rgba(0,0,0, 0.5);
+}
+
+.active-nav-btn {
+    font-size: 20px;
+    color: black;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #eee;
+}
+
+.carousel-item {
+    height:55rem;
+    background:black;
+    color:white;
+    position:relative;
+}
+
+
+.overlay-image {
+    position: absolute;
+    bottom:0;
+    right:0;
+    left:0;
+    top:0;
+    background-position: center;
+    background-size:cover;
+    opacity:0.5;
+}
+
